@@ -1,0 +1,87 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          35.000000000000114,
+          142.3529411764707
+        ],
+        [
+          1585.0,
+          1386.4705882352941
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_poly",
+      "points": [
+        [
+          43.823529411764866,
+          551.1764705882354
+        ],
+        [
+          252.6470588235295,
+          1357.058823529412
+        ],
+        [
+          1552.6470588235293,
+          160.00000000000009
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          46.76470588235304,
+          548.2352941176471
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          252.6470588235295,
+          1360.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          1555.5882352941176,
+          160.00000000000009
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "4.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 1920
+}

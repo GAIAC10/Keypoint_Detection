@@ -1,0 +1,95 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "sjb_rect",
+      "points": [
+        [
+          96.18320610687022,
+          35.49618320610687
+        ],
+        [
+          244.27480916030532,
+          349.23664122137404
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "sjb_poly",
+      "points": [
+        [
+          99.23664122137404,
+          290.45801526717554
+        ],
+        [
+          237.40458015267177,
+          343.1297709923664
+        ],
+        [
+          187.0229007633588,
+          41.603053435114504
+        ],
+        [
+          187.0229007633588,
+          41.603053435114504
+        ],
+        [
+          187.0229007633588,
+          40.83969465648855
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "polygon",
+      "flags": {}
+    },
+    {
+      "label": "angle_90",
+      "points": [
+        [
+          98.47328244274809,
+          290.45801526717554
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_60",
+      "points": [
+        [
+          237.40458015267177,
+          341.6030534351145
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    },
+    {
+      "label": "angle_30",
+      "points": [
+        [
+          186.25954198473283,
+          41.603053435114504
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {}
+    }
+  ],
+  "imagePath": "2.jpg",
+  "imageData": null,
+  "imageHeight": 500,
+  "imageWidth": 500
+}
