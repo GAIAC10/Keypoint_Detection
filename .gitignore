@@ -1,8 +1,11 @@
 .idea/
-Triangle_215_Keypoint_Labelme/
-table_format/
-kpt_dataset_eda.csv
-val_some/
+
+datasets/
 runs/
 model/
-datasets/
+table_format/
+Triangle_215_Test/
+val_some/
+
+kpt_dataset_eda.csv
+yolov8n.pt

@@ -1,5 +1,5 @@
 # 数据集在 datasets 目录下的文件夹路径
-path: Triangle_215_Keypoint_YOLO
+path: F:\my_github_space\Keypoint_Detection\datasets\Triangle_215_Keypoint_YOLO
 
 # 训练集、验证集、测试集相对于 path 的路径（一般不用区分验证集和测试集，统称测试集）
 train: images/train
