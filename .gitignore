@@ -2,3 +2,7 @@
 Triangle_215_Keypoint_Labelme/
 table_format/
 kpt_dataset_eda.csv
+val_some/
+runs/
+model/
+datasets/
