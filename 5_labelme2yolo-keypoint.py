@@ -6,6 +6,8 @@
 pip install seedir emoji
 import seedir as sd
 sd.seedir("table_format", style="emoji", depthlimit=2)
+
+label2everything-github: https://github.com/TommyZihao/Label2Everything
 """
 
 import os
