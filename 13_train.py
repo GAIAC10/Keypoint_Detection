@@ -89,10 +89,18 @@ augment          对输入数据做数据扩增，默认False(效果增强)
 # yolo pose train data=Triangle_215.yaml model=yolov8n-pose.pt project=Triangle_215_Test name=n_scratch \
 # epochs=50 batch=16 device=0
 
-# 下载训练好的模型
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8n_pose_pretrain.pt -P checkpoint
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8s_pretrain.pt -P checkpoint
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8m_pretrain.pt -P checkpoint
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8l_pretrain.pt -P checkpoint
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8x_pretrain.pt -P checkpoint
-# !wget https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8x_p6_pretrain.pt -P checkpoint
+# 下载训练好的模型(自己数据集训练)
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8n_pose_pretrain.pt
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8s_pretrain.pt
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8m_pretrain.pt
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8l_pretrain.pt
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8x_pretrain.pt
+# https://zihao-download.obs.cn-east-3.myhuaweicloud.com/yolov8/datasets/Triangle_215_Dataset/checkpoint/Triangle_215_yolov8x_p6_pretrain.pt
+
+# 验证数据集
+# 图片
+# https://zihao-openmmlab.obs.myhuaweicloud.com/20220610-mmpose/triangle_dataset/test_img/triangle_1.jpg
+# https://zihao-openmmlab.obs.myhuaweicloud.com/20220610-mmpose/triangle_dataset/test_img/triangle_2.jpg
+# 视频
+# https://zihao-openmmlab.obs.myhuaweicloud.com/20220610-mmpose/triangle_dataset/videos/triangle_6.mp4
+# https://zihao-openmmlab.obs.myhuaweicloud.com/20220610-mmpose/triangle_dataset/videos/triangle_7.mp4

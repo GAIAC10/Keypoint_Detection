@@ -19,8 +19,9 @@ print('device ---> {}'.format(device))
 # model = YOLO('yolov8x-pose.pt')
 model = YOLO('model/yolov8x-pose-p6.pt')
 
-# 切换计算设备
+# 切换计算设备(将模型放在设备上)
 model.to(device)
+# 强制切换设备
 # model.cpu()  # CPU
 # model.cuda() # GPU
 # 模型自带信息
@@ -32,7 +33,7 @@ print("model.names ---> {}".format(model.names))
 获得预测结果
 """
 img_path = 'val_some/two_runners.jpg'
-results = model(img_path)
+results = model(img_path, verbose=False)
 print("results ---> {}".format(results))
 # 一张图片对应一个结果
 print("len(results) ---> {}".format(len(results)))  # 1
